@@ -1,0 +1,61 @@
+.navbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+
+.logo-info {
+  display: flex;
+  align-items: center;
+}
+
+.notification {
+  position: relative;
+}
+
+.notification:hover{
+  cursor: pointer;
+}
+
+.personal-info {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  padding: 19px 60px;
+  background: #3d639d;
+  border-radius: 0px 0px 0px 30px;
+  transition: 0.4s;
+}
+
+.navbar-logo{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+}
+
+.personal-info:hover{
+  background: #4b7ac1;
+  cursor: pointer;
+}
+
+.logo {
+  position: absolute;
+  top: 30px;
+  right: 370px;
+}
+
+.personal-link {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 12px;
+}

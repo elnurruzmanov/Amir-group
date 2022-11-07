@@ -1,0 +1,475 @@
+.apple-infos {
+  display: flex;
+}
+
+.apple{
+  position: relative;
+}
+
+.apple-info {
+  width: 1197px;
+  padding: 20px;
+  background: #f3f5f8;
+  border-radius: 6px;
+  margin-left: 10px;
+  margin-top: 12px;
+}
+
+.information-about-apple {
+  margin-top: 30px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 16px;
+}
+
+.information-about-apple-title {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  color: #3d639d;
+}
+
+.about-apple {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.apple-swiper {
+  width: 480px;
+  height: 380px;
+}
+
+.apple-price {
+  width: 615px;
+}
+
+.apple-swiper {
+  background-color: #f3f5f8;
+  padding: 20px;
+}
+
+.apple-swiper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-radius: 16px;
+  justify-content: center;
+}
+
+/* .swiper {
+  width: 100%;
+  height: 100%;
+  background-color: #f3f5f8 !important;
+} */
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  background: #87888a !important;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet-active {
+  background-color: #3d639d !important;
+}
+
+.swiper-pagination-bullets {
+  margin-top: 33px !important;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #f3f5f8 !important;
+  border-radius: 16px !important;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.apple-swipe {
+  margin-bottom: 33px;
+}
+
+.swiper-slide img {
+  display: block;
+  object-fit: cover;
+}
+
+.stock {
+  position: absolute;
+  left: 10% !important;
+  z-index: 999 !important;
+  top: 14%;
+}
+
+.loading {
+  position: absolute;
+  left: 10% !important;
+  z-index: 999 !important;
+  top: 5%;
+}
+
+.percent {
+  position: absolute;
+  left: 10% !important;
+  z-index: 999 !important;
+  top: 23%;
+}
+
+.percent-green {
+  position: absolute;
+  left: 10% !important;
+  z-index: 999 !important;
+  top: 32%;
+}
+
+.apple-percent_price {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #bbc2d0;
+}
+
+.apple-percent_sum {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+  color: #262728;
+  margin-top: 8px;
+}
+
+.apple-hr {
+  border: 1px solid #f7f7f7;
+  margin-top: 20px;
+}
+
+.apple-percent_prices {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #bbc2d0;
+  margin-top: 20px;
+}
+
+.apple-percent_sums {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+  color: #262728;
+  margin-top: 8px;
+}
+
+.percent-list-stock {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: -0.3px;
+  color: #ffffff;
+  background: #ff647c;
+  border-radius: 2px;
+  padding: 2px 6px;
+  width: 139px;
+  margin-top: 6px;
+}
+
+.percent-list-stock-price {
+  display: flex;
+  align-items: center;
+}
+
+.percent-stock-span {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: -0.3px;
+  color: #bbc2d0;
+  margin-left: 6px;
+  margin-top: 5px;
+}
+
+.apple-percent-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.apple-percent-list {
+  display: flex;
+  align-items: center;
+  border: 1px solid #00c48c;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+.price-active {
+  color: #ffffff;
+  background-color: #00c48c;
+}
+
+.apple-percent-link:hover,
+.price-active {
+  cursor: pointer;
+  background-color: #00c48c;
+  /* font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px; */
+  color: #fff;
+  border-left: none;
+}
+
+.percent-borders {
+  border-left: none;
+  border: none;
+}
+
+.apple-percent-link:nth-child(1) {
+  border-left: none;
+}
+
+.apple-percent-link {
+  padding: 12px 37px;
+  border-left: 1px solid #00c48c;
+  width: 25%;
+  text-decoration: none;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+  letter-spacing: -0.3px;
+  color: #b3dbd0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.apple-margin-text {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #262728;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.apple-margin-percent {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.3px;
+  color: #262728;
+}
+
+.apple-hr-text {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #bbc2d0;
+  margin-top: 15px;
+}
+
+.apple-standard-text {
+  width: 40%;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #262728;
+  margin-top: 8px;
+}
+
+.apple-standard-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.apple-standard-links {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+  color: #00c48c;
+  margin-top: 20px;
+}
+
+.apple-orders {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.3px;
+  color: #00c48c;
+  margin-top: 30px;
+}
+
+.orders-checkbox-sums {
+  margin-top: 20px;
+}
+
+.orders-checkbox-sum {
+  display: flex;
+}
+
+.orders-loading-texts {
+  margin-left: 16px;
+}
+
+.orders-loading-texts {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.3px;
+  color: #262728;
+}
+
+.orders-loadings-text {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #bbc2d0;
+  margin-top: 10px;
+}
+
+.orders-checkbox-images {
+  width: 36px;
+  height: 30px;
+}
+
+.apple-input {
+  display: none;
+}
+
+.check {
+  border: 1px solid #bbc2d0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+}
+
+.check {
+  color: #fff;
+}
+
+.check:after {
+  content: "✓";
+  display: none;
+}
+
+.apple-input:checked + .check:after {
+  display: block;
+}
+
+.label:hover,
+.check-prises {
+  background-color: #00c48c;
+  color: #fff;
+  border-radius: 6px;
+}
+
+.orders-checkbox-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.check-prises-hr {
+  opacity: 0.4;
+  border: 1px solid #bbc2d0;
+}
+
+.orders-checkbox-info {
+  margin: 20px 0px;
+}
+
+.orders-loading-imei {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+  color: #262728;
+  margin-top: 8px;
+}
+
+.basket-orders {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  text-decoration: none;
+  background: #00c48c;
+  border-radius: 26px;
+  width: 100%;
+  padding: 16px 414px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  transition: 0.4s;
+}
+
+.basket-orders:hover{
+  background: #03b281;
+}
+
+.icon-korzina{
+  position: absolute;
+  top: 12%;
+  right: 5%;
+}

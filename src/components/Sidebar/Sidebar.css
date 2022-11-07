@@ -1,0 +1,66 @@
+.sidebar {
+  background: #3d639d;
+  border-radius: 0px 30px 0px 0px;
+  margin-top: 14px;
+}
+
+.sidebar .container {
+  padding: 30px 40px;
+  width: 265px;
+  height: 100vh;
+}
+
+.sidebar-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar_link-text {
+  margin-left: 15px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.3px;
+  color: #ffffff;
+}
+
+.sidebar-item {
+  margin: 10px 0px;
+  padding: 15px;
+  transition: 0.4s;
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  width: 210px;
+}
+
+/* .sidebar-item:hover {
+  border-radius: 50px;
+  background-color: #ffffff;
+  width: 243px;
+  color: #3d639d;
+} */
+
+
+.sidebar-items {
+  border-radius: 50px;
+  background-color: #ffffff;
+  width: 243px;
+  padding: 14px 20px;
+}
+
+.home-texts {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.3px;
+  color: #3d639d;
+}
+
