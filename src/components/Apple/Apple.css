@@ -75,7 +75,7 @@
 
 .swiper-pagination-bullets {
   margin-top: 33px !important;
-}
+} 
 
 .swiper-slide {
   text-align: center;
@@ -464,12 +464,54 @@
   transition: 0.4s;
 }
 
-.basket-orders:hover{
+.basket-orders:hover,
+.basket-orders.active{
   background: #03b281;
+  cursor: pointer;
 }
 
 .icon-korzina{
   position: absolute;
   top: 12%;
   right: 5%;
+  transition: color, transform 500ms ease;
+}
+.icon-korzina:hover,
+.icon-korzina.active{
+  transform:scale(1.1);
+  cursor: pointer;
+}
+
+.shop-cart{
+  position: absolute;
+  top: 206px;
+  right: 70px;
+  width: 267px;
+  min-height: 60px;
+  background: #FF647C;
+  border-radius: 40px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+
+  -webkit-box-shadow:4px 5px 15px -7px #606060;
+  box-shadow: 4px 5px 15px -7px #606060;
+
+  z-index: 100;
+}
+
+.shop-cart-text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 20px;
+text-align: center;
+margin-left: 10px;
+
+color: #FFFFFF;
 }

@@ -1,4 +1,4 @@
-import React from "react";
+import React,{ useState } from "react";
 import "./Apple.css";
 
 import AppleSwiper from "../../assets/images/AppleSwipe.png";
@@ -24,12 +24,17 @@ import Percent from "../../assets/icons/Percent.png";
 import PercentGreen from "../../assets/icons/PercentGreen.png";
 import ArrowDown from "../../assets/icons/arrow-down.png";
 import IconKorzina from "../../assets/icons/iconKorzina.png"
+import Buyss from "../../assets/icons/Buys.png"
 
 
 
 
 
 const Apple = () => {
+
+  let[cartOpen, setCartOpen] =useState(false)
+
+
   const checkedAddClass = (event) => {
     const links = document.querySelectorAll(".check-prises");
 
@@ -48,6 +53,7 @@ const Apple = () => {
     event.currentTarget.classList.add("price-active");
 
     //Checkbox
+
   };
   return (
     <div className="apple">
@@ -269,8 +275,17 @@ className="mySwiper"
                 </label>
               </div>
             </div>
-            <Link to={"/"} className="basket-orders">Добавить в корзину</Link>
-            <img src={IconKorzina}  alt="IconKorzina" className="icon-korzina" />
+            <p to={"/"} className={`basket-orders ${cartOpen&&"active"}`}  onClick={()=>setCartOpen(cartOpen=!cartOpen)}>Добавить в корзину</p>
+            <img src={IconKorzina} onClick={()=>setCartOpen(cartOpen=!cartOpen)}  alt="IconKorzina" className={`icon-korzina ${cartOpen&&"active"}`} />
+
+            {cartOpen && (
+              <div className="shop-cart">
+                <img src={Buyss} alt="Buys" className="buys" />
+                <p className="shop-cart-text">Перейти в корзину</p>
+                
+                
+              </div>
+            )}
           </div>
         </div>
       </div>
